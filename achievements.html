@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Masonry Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: rgb(13, 71, 71);
+    }
+
+    .masonry {
+      column-count: 3;
+      column-gap: 16px;
+    }
+
+    .masonry-item {
+      background: white;
+      margin-bottom: 16px;
+      break-inside: avoid;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .masonry-item img {
+      width: 100%;
+      display: block;
+    }
+
+    .masonry-item h3 {
+      margin: 8px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="masonry">
+    <div class="masonry-item">
+      <img src="images/Eduskills.png" alt="Project 1">
+      <h3>AI/ML Virtual Internship</h3>
+    </div>
+    <div class="masonry-item">
+      <img src="images/NSS Certificate.png" alt="Project 2">
+      <h3>Blood Donation Volunteer</h3>
+    </div>
+    <div class="masonry-item">
+      <img src="images/Coding_Competition_Participant.png" alt="Project 3">
+      <h3>Solocodex</h3>
+    </div>
+   
+    <div class="masonry-item">
+        <img src="images/Screenshot 2024-10-23 150022.png" alt="Project 1">
+        <h3>Graphic Design</h3>
+      </div>
+
+      <div class="masonry-item">
+        <img src="images/Screenshot 2025-01-28 002640.png" alt="Project 1">
+        <h3>Nation Building</h3>
+      </div>
+     
+      </div>
+  </div>
+</body>
+</html>

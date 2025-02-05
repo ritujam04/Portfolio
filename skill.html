@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Section</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(13, 71, 71);
+            color: #fff;
+        }
+
+        .skills {
+            padding: 60px 9%;
+            color: #fff;
+            background-color: rgb(13, 71, 71);
+        }
+
+        .skills-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        .skills-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: rgb(108, 198, 198);
+        }
+
+        .skills-content p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .skills-list {
+            width: 100%;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .skill-progress {
+            position: relative;
+            flex-grow: 1;
+            height: 30px;
+            background-color: #232c37;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        .skill-progress span.progress-count {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .skill-progress-bar {
+            height: 100%;
+            background-color:rgba(255, 255, 255, 0.3);
+            width: 0;
+            transition: width 0.5s ease;
+        }
+
+        .skill-name {
+            min-width: 100px;
+            color: rgb(108, 198, 198);
+            font-weight: bold;
+        }
+
+        .skills-list h3 {
+            font-size: 24px;
+            color: rgb(108, 198, 198);
+            margin-bottom: 10px;
+        }
+
+        .ss {
+            margin-left: 30px;
+        }
+
+        .ss li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="skills" class="skills">
+        <div class="skills-container">
+            <div class="skills-content">
+                <h2>Skills</h2>
+                <p>
+                    I possess a diverse set of technical and soft skills developed through academic learning, internships, and
+                    personal projects. I continue to grow in both areas, aiming to tackle more challenging projects and improve my
+                    problem-solving abilities.
+                </p>
+
+                <h3>Technical Skills</h3>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: 90%;"></div>
+                            <span class="progress-count">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: 75%;"></div>
+                            <span class="progress-count">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">MySQL</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: 85%;"></div>
+                            <span class="progress-count">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Mobile App </span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: 60%;"></div>
+                            <span class="progress-count">60%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">OS</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: 90%;"></div>
+                            <span class="progress-count">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML| CSS| Javascript| PHP</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" style="width: 60%;"></div>
+                            <span class="progress-count">60%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Soft Skills</h3>
+                <ul class="ss">
+                    <li>Analytical Thinking</li>
+                    <li>Creativity</li>
+                    <li>Communication Skills</li>
+                    <li>Leadership</li>
+                    <li>Adaptability</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
